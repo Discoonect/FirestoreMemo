@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "625435674928",
+    "firebase_url": "https://firestorememo.firebaseio.com",
+    "project_id": "firestorememo",
+    "storage_bucket": "firestorememo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625435674928:android:e62d68d2b67ffafee7a0f5",
+        "android_client_info": {
+          "package_name": "com.test.firestorememo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625435674928-10pv40vt3a37fs0sp2725i2hbed8r5q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.firestorememo",
+            "certificate_hash": "e0f4fbb31b88bffee2ec476d6a0abe9a7b8a4073"
+          }
+        },
+        {
+          "client_id": "625435674928-cinfojj1tqh4s3g06kl3mjhrusuphea7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAufRPqImOCmNtNkeWvYVrO2G7O30sSk5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625435674928-cinfojj1tqh4s3g06kl3mjhrusuphea7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
