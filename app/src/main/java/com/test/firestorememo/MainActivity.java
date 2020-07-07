@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
                 for(QueryDocumentSnapshot snapshot : queryDocumentSnapshots){
-                    String title = snapshot.getString("title");
-                    String memo = snapshot.getString("memo");
                     String id = snapshot.getId();
 
                     Data data = snapshot.toObject(Data.class);
+                    data.setId(id);
+
                     list.add(data);
                 }
                 recyclerViewAdapter = new RecyclerViewAdapter(MainActivity.this,

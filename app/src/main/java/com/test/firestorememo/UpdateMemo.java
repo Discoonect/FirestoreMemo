@@ -24,6 +24,8 @@ public class UpdateMemo extends AppCompatActivity {
     Button btn_update;
     Button btn_cancel;
 
+    String id;
+
     ArrayList<Data> list = new ArrayList<>();
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     @Override
@@ -59,8 +61,9 @@ public class UpdateMemo extends AppCompatActivity {
                 Map<String, Object> update = new HashMap<>();
                 update.put("title",up_title);
                 update.put("memo",up_memo);
+                id = getIntent().getStringExtra("id");
 
-//                db.
+
 
             }
         });
