@@ -16,7 +16,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTitle"
+            android:id="@+id/editTitle1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -25,7 +25,7 @@
             android:inputType="textPersonName" />
 
         <AutoCompleteTextView
-            android:id="@+id/editMemo"
+            android:id="@+id/editMemo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

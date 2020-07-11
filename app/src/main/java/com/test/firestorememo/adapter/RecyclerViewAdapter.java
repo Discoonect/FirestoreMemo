@@ -2,7 +2,6 @@ package com.test.firestorememo.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,10 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
 import com.test.firestorememo.R;
 import com.test.firestorememo.UpdateMemo;
 import com.test.firestorememo.model.Data;
@@ -79,14 +75,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 public void onClick(View view) {
                     Intent i = new Intent(context, UpdateMemo.class);
                     int index = getAdapterPosition();
+
                     Data data = dataList.get(index);
-
-//                    String title = data.getTitle();
-//                    String memo = data.getMemo();
-
-
-//                    i.putExtra("title",title);
-//                    i.putExtra("memo",memo);
                     i.putExtra("data",data);
 
                     context.startActivity(i);

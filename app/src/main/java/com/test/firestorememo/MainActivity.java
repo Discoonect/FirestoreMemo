@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
                     list.add(data);
                 }
-                recyclerViewAdapter = new RecyclerViewAdapter(MainActivity.this,
-                        list);
-                recyclerView.setAdapter(recyclerViewAdapter);
+            recyclerViewAdapter = new RecyclerViewAdapter(MainActivity.this,
+                    list);
+            recyclerView.setAdapter(recyclerViewAdapter);
             }
         });
     }
